@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(53, 53, 53);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.main-title {
+    font-size: 5rem;
+    color: #0949fa;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(247, 240, 217, 0.678);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 1rem;
+    max-width: 600px;
+}
+
+.question {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.25);
+}
+
+.yes {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.no {
+    background-color: #f44336;
+    color: white;
+}
+
+#facts-container {
+    margin-top: 1.5rem;
+}
+
+.fact {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+}
